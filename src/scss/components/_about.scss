@@ -1,0 +1,23 @@
+@import "vars";
+
+.about {
+    background-color: var(--bg-color);
+    padding: 20px 0;
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &__text {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+        color: var(--grey);
+    }
+
+    &__image {
+        width: 70%;
+    }
+}
