@@ -1,0 +1,50 @@
+{
+  "name": "pokegame-html",
+  "version": "1.0.0",
+  "description": "New project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darmar12/pokegame-html"
+  },
+  "keywords": [
+    "pokemon",
+    "pokegame"
+  ],
+  "author": "Dima Ovharenko <dima-o@mail.ru>",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-avif": "^1.0.1",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-rev": "^9.0.0",
+    "gulp-rev-delete-original": "^0.2.3",
+    "gulp-rev-rewrite": "^5.0.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgmin": "^4.1.0",
+    "gulp-typograf": "^4.0.3",
+    "gulp-webp": "^4.0.1",
+    "gulp-zip": "^5.1.0",
+    "webpack": "^5.69.1",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.7"
+  }
+}
