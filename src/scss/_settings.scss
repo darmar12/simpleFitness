@@ -6,19 +6,8 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-.page {
-  height: 100%;
-  font-family: var(--font-family, sans-serif);
-  -webkit-text-size-adjust: 100%;
-}
-
-.page__body {
   margin: 0;
-  min-width: 320px;
-  min-height: 100%;
-  font-size: 16px;
+  padding: 0;
 }
 
 img {
@@ -81,7 +70,7 @@ a {
 .container {
   margin: 0 auto;
   padding: 0 var(--container-offset);
-  max-width: var(--container-width);
+  width: 70%;
 }
 
 .js-focus-visible :focus:not(.focus-visible) {
@@ -107,5 +96,8 @@ a {
 }
 
 .wrapper {
-  background-color: var(--main-dark);
+  height: 100%;
+  font-family: var(--font-family, sans-serif);
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px;
 }

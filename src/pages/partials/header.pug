@@ -1,0 +1,17 @@
+include ./../mixins/nav.pug
+
+header.header#header
+    .container.header__container
+        a.header__logo(href="#intro")
+            picture.header__image
+                source(srcset="./../../images/logo.webp", type="image/webp")
+                source(srcset="./../../images/logo.avif", type="image/avif")
+                img(src="./../../images/logo.png", alt="Логотип сайта Befit")
+        nav.header__navigation
+            ul.header__list
+                +navigation('home', 'home')
+                +navigation('about', 'about')
+                +navigation('courses', 'courses')
+                +navigation('price', 'price')
+                +navigation('team', 'team')
+                +navigation('blog', 'blog')

@@ -2,6 +2,16 @@ extends ./pages/layouts/main
 //- include ./pages/helpers/nav
 
 block variables
-    - const title = "";
+    - const title = "Fitness";
 
 block content
+    include ./pages/partials/header.pug
+    main
+        include ./pages/partials/intro.pug
+        include ./pages/partials/about.pug
+        include ./pages/partials/courses.pug
+        include ./pages/partials/price.pug
+        include ./pages/partials/team.pug
+        include ./pages/partials/blogs.pug
+    include ./pages/partials/footer.pug
+    
